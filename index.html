@@ -20,12 +20,13 @@
     </header>
 
     <main id="content">
-      <form method="get" action="#null">
+      <form method="get" action="#null" id="form">
         <fieldset>
           <ul class="formlist">
             <li id="input-email">
               <label for="email">Email:</label>
-              <input type="email" name="email" id="email" pattern="^.+@.+$" />
+              <input type="email" name="email" id="email" pattern="^.+@.+$"
+              placeholder="Example@gmail.com" required/>
             </li>
             <li id="genrelist">
               <p>What genres of games do you enjoy?</p>
@@ -59,11 +60,13 @@
 
             <li id="input-phone">
               <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="123-456-7890" required>
             </li>
 
             <li id="input-submit">
-              <input type="submit" name="submit" id="submit" value="Sign up!" />
+              <input type="submit" name="phone" id="submit" value="Sign up!"
+              onsubmit="return clickEvent();" />
             </li>
           </ul>
         </fieldset>
