@@ -47,6 +47,34 @@ fieldset{
   border: 0.15em solid#2d8ceb;
 }
 
+input[type=email],
+input[type=submit],
+input[type=tel]{
+  border: 0; /* Removes the border coming from resets CSS */
+  padding: 0.4em 0.6em;/* 8 / 20 | 12 / 20 */
+  border-radius: 0.2em;/* 4 / 20 */
+  background-color: #b7b7b7;
+}
+
+#input-submit{
+  padding-top: 0.6em;/* 12 / 20 */
+}
+
+input[type=submit]{
+  padding: 0.4em 1em;/* 8 / 20 | 20 / 20 */
+}
+
+li {
+  text-align: center;
+  margin: 0.2em; /* 4 / 20*/
+  margin-bottom: 0.8em;
+}
+
+label[for=email],
+label[for=phone]{
+  padding-bottom: 0.6em;/* 12 / 20 */
+}
+
 /* ---Layout--- */
 
 body {
