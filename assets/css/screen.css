@@ -49,6 +49,16 @@ fieldset{
 
 /* ---Layout--- */
 
+body {
+  display: grid;
+  grid-template-columns: minmax(0.625em,1fr) minmax(5ch,80ch) minmax(0.625em,1fr);
+}
+
+header,
+main {
+  grid-column: 2 / 3;
+}
+
 /* ---Modular--- */
 
 /* ---State--- */
