@@ -16,5 +16,42 @@
         Sign up to possibly get beta access to our new theoretical game: Dimensional Drifter!
       </p>
     </header>
+
+    <main id="content">
+      <form method="get" action="#null">
+        <fieldset>
+          <ul class="formlist">
+            <li id="input-email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" pattern="^.+@.+$" />
+            </li>
+            <li id="input-genre">
+              <p>What genres of games do you enjoy?</p>
+              <input type="checkbox" id="genre1" name="genre1" value="MMOrpg">
+              <label for="genre1">MMORPG</label>
+
+              <input type="checkbox" id="genre2" name="genre2" value="Action">
+              <label for="genre2">Action</label>
+
+              <input type="checkbox" id="genre3" name="genre3" value="Adventure">
+              <label for="genre3">Adventure</label>
+
+              <input type="checkbox" id="genre4" name="genre4" value="Strategy">
+              <label for="genre4">Strategy</label>
+
+              <input type="checkbox" id="genre5" name="genre5" value="Roguelike">
+              <label for="genre5">Roguelike</label>
+            </li>
+            <li id="input-age-verification">
+              <label for="age-verification">I am over 18 years old</label>
+              <input type="checkbox" id="age-verification" name="age-verification" value="18" />
+            </li>
+            <li id="input-submit">
+              <input type="submit" name="submit" id="submit" value="Subscribe" />
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+    </main>
   </body>
 </html>
