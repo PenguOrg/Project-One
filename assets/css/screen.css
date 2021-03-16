@@ -102,3 +102,21 @@ main {
 /* ---Modular--- */
 
 /* ---State--- */
+@media screen and (min-width: 470px) { /*  */
+
+  li {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+
+}
+
+@media screen and (min-width: 710px) { /*  */
+
+  li {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+
+}
