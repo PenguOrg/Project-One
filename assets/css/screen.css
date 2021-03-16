@@ -102,17 +102,17 @@ main {
 /* ---Modular--- */
 
 /* ---State--- */
-@media screen and (min-width: 470px) { /*  */
+@media screen and (min-width: 29.375em) { /* 470 / 16 */
 
   li {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1.25em; /* 25 / 20 */
+    padding-right: 1.25em; /* 25 / 20 */
   }
 
 
 }
 
-@media screen and (min-width: 710px) { /*  */
+@media screen and (min-width: 44.375em) { /*  */
 
   li {
     padding-left: 0em;
