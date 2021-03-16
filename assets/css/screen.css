@@ -22,6 +22,31 @@ html {
   color: #e6e6e6;
 }
 
+@supports (display: grid) {
+  html { padding: 1em 0; }
+}
+
+h1 {
+  font-size: 1.95315em; /* 39.063 / 20 */
+  line-height: 1.228784272em; /* 48 / 39.063 */
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  padding-top: 0.2em; /* 4 / 20 */
+  padding-bottom: 1em;/* 20 / 20 */
+}
+
+label {
+  display: block;
+}
+
+fieldset{
+  background: #515151;
+  border: 0.15em solid#2d8ceb;
+}
+
 /* ---Layout--- */
 
 /* ---Modular--- */
