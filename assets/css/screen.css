@@ -64,15 +64,27 @@ input[type=submit]{
   padding: 0.4em 1em;/* 8 / 20 | 20 / 20 */
 }
 
-li {
-  text-align: center;
-  margin: 0.2em; /* 4 / 20*/
-  margin-bottom: 0.8em;
-}
-
 label[for=email],
 label[for=phone]{
   padding-bottom: 0.6em;/* 12 / 20 */
+}
+
+li {
+  text-align: center;
+  margin: 0.5em; /* 4 / 20*/
+  margin-bottom: 0.8em;
+}
+
+#input-genre{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.genre {
+  flex-grow: 1;
+  flex-basis: 1em;
 }
 
 /* ---Layout--- */
